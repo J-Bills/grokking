@@ -33,7 +33,7 @@ class Solution:
                     del freq_map[str1[left]]
                 left += 1
             best_len = max(best_len, right-left+1)
-        return best_len, result
+        return best_len
 sol = Solution()
 print(sol.findLength('araaci', 2))
 
